@@ -82,9 +82,20 @@ body{
     transition: left .5s;
 
 }
+
+.navbar a{
+    color: #000;
+    font-size: 2rem;
+}
 .navbar.change{
     left: 0;
 }
+
+.navbar.change a:hover{
+    color: #5a4b4b;
+}
+
+.navbar.change a:hover{
 
 .navbar-link{
     font-size: 1.5rem;
