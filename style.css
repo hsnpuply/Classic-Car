@@ -56,10 +56,13 @@ body{
 
 
 .menu-line-1.change{
-    transform: rotate(37deg) translateX(6px);
+    transform: rotate(45deg) translateX(8px);
+    background-color: rgb(250, 48, 48);
 }
 .menu-line-2.change{
-    transform: rotate(306deg) translate(5px, 3px); 
+    transform:rotate(306deg) translate(6px, 3px);
+    background-color: rgb(250, 48, 48);
+
 }
 
 /* End of Menu */
@@ -239,12 +242,12 @@ section.change{
     flex-direction: column;
     justify-content: space-between;
   }
-  
+
   .gallery {
     margin: 10rem 0;
     perspective: 10rem;
   }
-  
+
   .gallery-shelf {
     width: 80%;
     height: 3rem;
@@ -253,7 +256,7 @@ section.change{
     position: relative;
     box-shadow: 1rem 1rem 5rem #444;
   }
-  
+
   .gallery-shelf::before {
     content: "";
     position: absolute;
@@ -264,7 +267,7 @@ section.change{
     transform: rotateX(20deg);
     transform-origin: bottom;
   }
-  
+
   .gallery img {
     width: 15%;
     position: absolute;
@@ -275,20 +278,20 @@ section.change{
     transform-origin: bottom;
     transition: all .3s;
   }
-  
+
   .gallery img:hover {
     transform: translateX(-50%) rotateX(0);
     box-shadow: 0 0.2rem 0.3rem #888;
   }
-  
+
   .gallery-img-1 {
     left: 50%;
   }
-  
+
   .gallery-img-2 {
     left: 30%;
   }
-  
+
   .gallery-img-3 {
     left: 70%;
   }
